@@ -1,0 +1,26 @@
+{
+    "name": "loadsys/cakephp-tablemaintenanceshell",
+    "description": "A CakePHP console tool to run common MySQL database maintenance queries",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "mysql", "database"],
+    "homepage": "https://github.com/loadsys/CakePHP-TableMaintenanceShell",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregory Gaskill",
+            "homepage": "https://www.loadsys.com",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/loadsys/CakePHP-TableMaintenanceShell/issues",
+        "source": "https://github.com/loadsys/CakePHP-TableMaintenanceShell"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+    "extra": {
+        "installer-name": "TableMaintenance"
+    }
+}
